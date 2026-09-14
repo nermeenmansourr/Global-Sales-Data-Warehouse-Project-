@@ -28,3 +28,11 @@ This project showcases the design and deployment of an end-to-end SQL Data Wareh
 
 ```text
 [ERP & CRM CSVs] ──(Extract)──> [Bronze: Raw Staging] ──(Transform)──> [Silver: Cleaned Data] ──(Load)──> [Gold: Star Schema]
+
+data-warehouse-project/
+├── datasets/     # Raw ERP and CRM source files (CSV)
+├── docs/         # Architecture diagrams & model specs
+├── scripts/      # T-SQL ETL scripts (bronze/, silver/, gold/)
+├── tests/        # Data validation & quality check scripts
+├── LICENSE
+└── README.md
